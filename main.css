@@ -1,0 +1,90 @@
+@font-face {
+    font-family: "Crafty Girls";
+    src: url(CraftyGirls.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Shooting Star";
+    src: url(ShootingStar.ttf) format("truetype");
+}
+
+body
+{
+    background:red;
+    font-family: "Crafty Girls"
+}
+
+#aerl
+{
+    display:flex;
+}
+
+#aerl h2 {opacity:0;}
+
+#imagez
+{
+    display:block;
+
+}
+
+h1 {
+
+    font-family: "Shooting Star"
+}
+
+#kuk {
+    min-width: 75vw;
+    min-height: 45vh;
+    background:#A62639;
+    border-radius: 10px;
+}
+#kuk *
+{
+    text-align:center;
+    padding: 0; margin: 0;
+    text-shadow: 2px 2px 2px black;
+}
+
+#kuk h1 {
+    color: #DB324D;
+    font-size: 4rem;
+    animation: .25s linear 1s infinite alternate fuck;
+}
+
+#kuk h2
+{
+    color: #AB324D;
+    font-size: 3rem;
+    animation: .75s linear 1s infinite alternate fuck;
+}
+
+#faaa
+{
+    display:flex;
+    width:100%;
+    background:#8D6B94;
+    align-items: center;
+    justify-content: space-around;
+    color: #FFF4E9;
+    font-size: 1.5rem;
+    animation: 4s linear infinite alternate sahiopf;
+    text-wrap:none;
+}
+#faaa * {overflow:hidden;} /*fuck css ærkliug ietalt*/
+
+@keyframes fuck
+{
+    0% {color: #DB324D}
+    25% {color: #56494E}
+    50% {color: #A29C9B}
+    75% {color: #511C29} /*glemte 100% skillissue */
+}
+
+
+@keyframes sahiopf
+{
+    from {
+        font-size:1.25rem;
+    }
+    to {font-size: 1.50rem}
+}
